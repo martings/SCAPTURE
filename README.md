@@ -1,4 +1,6 @@
 # SCAPTURE
+
+> **Maintained Fork (`martings/SCAPTURE`):** Forked from [`YangLab/SCAPTURE`](https://github.com/YangLab/SCAPTURE) (GPL-3.0). Adds native `--strand` / `SCAPTURE_STRAND` (`forward` [default], `reverse` for 10x 3' v1 / 5', `unstranded`) across `scapture`, `scapture_callpeak`, `scapture_quant`, and `scripts/bamToBw.py`, fixes `DeepPASS/Predict.py` tensor conversion, adds optional deterministic per-transcript seeding (`SCAPTURE_NORMALITY_SEED`) in `scripts/Normality.R`, improves `SCAPTUREPATH` self-resolution, and adds automated CLI tests + GHCR container builds. All original authorship and citation remain with Guo-Wei Li, Guo-Hua Yuan, and co-authors (Nucleic Acids Research, 2021).
 ![image](https://github.com/YangLab/SCAPTURE/blob/main/scripts/Schematic%20diagram.jpg)
 
 
